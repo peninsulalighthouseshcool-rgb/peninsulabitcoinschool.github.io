@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peninsula Lighthouse School - Life Long Learning</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/peninsulalighthouseshcool-rgb/peninsulabitcoinschool.github.io/main/logo2.png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .accent-color { color: #d97706; }
+        .accent-bg { background-color: #d97706; }
+        .protocol-badge { background-color: #0b2247; }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+            background-color: #f59e0b; 
+            background-image: url('https://github.com/peninsulalighthouseshcool-rgb/peninsulabitcoinschool.github.io/blob/main/header.png?raw=true');
+            background-size: cover;
+            background-position: center bottom;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: rgba(217, 119, 6, 0.7);
+            filter: saturate(1.2) contrast(1.1);
+            z-index: 1;
+        }
+        .hero-content { position: relative; z-index: 2; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+
+        /* Logo Overlay */
+        .hero-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            height: 64px;
+        }
+
+        body::-webkit-scrollbar { width: 8px; }
+        body::-webkit-scrollbar-thumb { background-color: #d1d5db; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section with Logo Overlay -->
+    <header class="hero-section shadow-lg">
+        <!-- Logo on top-left of hero -->
+        <img 
+            src="https://raw.githubusercontent.com/peninsulalighthouseshcool-rgb/peninsulabitcoinschool.github.io/main/logo2.png" 
+            alt="Peninsula Lighthouse School Logo" 
+            class="hero-logo"
+            onerror="this.onerror=null; this.src='https://placehold.co/48x48/d97706/ffffff?text=LOGO'"
+        >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 text-white">
+            <div class="text-center hero-content">
+                <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+                    Peninsula Lighthouse <span class="text-yellow-300">School</span>
+                </h1>
+                <p class="mt-4 text-xl sm:text-2xl font-light">
+                    — <strong>Life Long Learning</strong> —
+                </p>
+                <div class="mt-8 inline-block px-5 py-2 rounded-full protocol-badge shadow-xl transition hover:shadow-2xl hover:scale-[1.02] duration-300 ease-in-out">
+                    <span class="text-sm sm:text-base font-medium uppercase tracking-widest">
+                        Powered by the <strong>c21protocol</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tenets Section -->
+    <section class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Our Commitment to the Learner</h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    We are built on foundational principles that redefine <strong>education</strong> for the modern world, fostering <strong>autonomy</strong>, <strong>transparency</strong>, and <strong>lifelong growth</strong> for every student.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tenets 1-6 -->
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">💡</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">1. Learner Autonomy and Self-Direction</h3>
+                    <p class="text-gray-600">Students take full control of their educational journey, fostering deep <strong>intrinsic motivation</strong>.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">👥</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">2. Community-Driven Governance</h3>
+                    <p class="text-gray-600">Active participation in educational governance through <strong>consensus-building</strong> ensures responsiveness.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">🛠️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">3. Problem-Based and Project Mastery</h3>
+                    <p class="text-gray-600"><strong>Education</strong> is practical and project-based, measuring real-world <strong>mastery</strong>.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">💰</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">4. Financial Independence for Launch</h3>
+                    <p class="text-gray-600">Time-locked funds provide support for <strong>entrepreneurial launch</strong> or further study.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">🔐</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">5. Verifiable Digital Portfolio of Growth</h3>
+                    <p class="text-gray-600">Transparent digital portfolios showcase projects and <strong>growth journey</strong>.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl hover:border-amber-600 border border-transparent">
+                    <div class="text-3xl accent-color mb-3">🚀</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">6. Essential Life Skills & Financial Literacy</h3>
+                    <p class="text-gray-600">Equipping learners with foundational <strong>life skills</strong> and modern <strong>financial literacy</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900">Ready to Join the Movement?</h2>
+            <p class="mt-4 text-xl text-gray-600">Learn more about the <strong>c21protocol</strong> and our innovative learning system.</p>
+            <div class="mt-8">
+                <a href="#" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white accent-bg hover:opacity-90 transition duration-150 ease-in-out transform hover:scale-[1.02]">
+                    Explore Enrolment
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
+                <div class="flex items-center space-x-3">
+                    <img 
+                        src="https://raw.githubusercontent.com/peninsulalighthouseshcool-rgb/peninsulabitcoinschool.github.io/main/logo2.png" 
+                        alt="Logo" 
+                        class="h-8 w-auto"
+                        onerror="this.onerror=null; this.src='https://placehold.co/32x32/d97706/ffffff?text=L'"
+                    >
+                    <p class="text-sm">&copy; 2025 Peninsula Lighthouse School. All rights reserved.</p>
+                </div>
+                <p class="text-sm mt-2 sm:mt-0">A <strong>c21protocol</strong> Learning Community.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
