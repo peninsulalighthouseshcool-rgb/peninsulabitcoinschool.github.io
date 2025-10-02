@@ -1,1 +1,1 @@
-# peninsulabitcoinschool.github.io
+peninsulalighthouseshcool-rgb
